@@ -6,7 +6,7 @@
 %define	pdir	Catalyst
 %define	pnam	Model-DBIC
 Summary:	Catalyst::Model::DBIC - DBIx::Class Model Class
-#Summary(pl):	
+Summary(pl):	Catalyst::Model::DBIC - klasa modelu DBIx::Class
 Name:		perl-Catalyst-Model-DBIC
 Version:	0.10
 Release:	1
@@ -28,8 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This is the DBIx::Class model class for Catalyst web application
 framework. It's built on top of DBIx::Class::Loader.
 
-# %description -l pl
-# TODO
+%description -l pl
+To jest klasa modelu DBIx::Class dla szkieletu aplikacji WWW Catalyst.
+Jest zbudowana w oparciu o DBIx::Class::Loader.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
