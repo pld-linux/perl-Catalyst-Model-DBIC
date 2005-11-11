@@ -8,13 +8,13 @@
 Summary:	Catalyst::Model::DBIC - DBIx::Class Model Class
 Summary(pl):	Catalyst::Model::DBIC - klasa modelu DBIx::Class
 Name:		perl-Catalyst-Model-DBIC
-Version:	0.10
+Version:	0.11
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f7ea9a203dce9144108c8dfe0adfe962
+# Source0-md5:	fb9cecff74c06e08c9e7bc4501710207
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
