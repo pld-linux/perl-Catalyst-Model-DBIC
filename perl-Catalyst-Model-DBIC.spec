@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Catalyst
 %define	pnam	Model-DBIC
-Summary:	Catalyst::Model::DBIC - DBIx::Class Model Class
-Summary(pl.UTF-8):	Catalyst::Model::DBIC - klasa modelu DBIx::Class
+Summary:	Catalyst::Model::DBIC - (DEPRECATED) DBIx::Class Model Class
+Summary(pl.UTF-8):	Catalyst::Model::DBIC - (PRZESTARZAŁA) klasa modelu DBIx::Class
 Name:		perl-Catalyst-Model-DBIC
 Version:	0.15
 Release:	1
@@ -25,10 +25,15 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+This module has been deprecated in favor of the schema-based
+Catalyst::Model::DBIC::Schema.
+
 This is the DBIx::Class model class for Catalyst web application
 framework. It's built on top of DBIx::Class::Loader.
 
 %description -l pl.UTF-8
+Ten moduł jest przestarzały, zastępuje go Catalyst::Model::DBIC::Schema.
+
 To jest klasa modelu DBIx::Class dla szkieletu aplikacji WWW Catalyst.
 Jest zbudowana w oparciu o DBIx::Class::Loader.
 
